@@ -10,4 +10,4 @@ Demo site will be available soon.
 
 License: For now it's do what you want. Available at your own risk. 
 
-This project sucks
+This project sucks but the creator is awesome.
