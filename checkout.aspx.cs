@@ -4,11 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 
 public partial class checkout : System.Web.UI.Page
 {
+    public DataTable bagTable = null;
+    public double sumTotal = 0.0;
+    
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        bagTable = (DataTable)Session["bagTable"];
+         sumTotal = (Double)Session["sumTable"];
     }
 }

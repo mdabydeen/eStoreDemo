@@ -11,4 +11,8 @@ public partial class products : System.Web.UI.Page
     {
 
     }
+    protected void cmdSearch_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("search.aspx?search=" + txtSearch.Text);
+    }
 }

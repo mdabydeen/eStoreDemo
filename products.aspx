@@ -55,7 +55,7 @@
                         <td class="style2">
                             <asp:Label ID="Label1" runat="server" Text="Search Criteria "></asp:Label>
                             <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
-&nbsp;<asp:Button ID="cmdSearch" runat="server" Text="Search" />
+&nbsp;<asp:Button ID="cmdSearch" runat="server" Text="Search" onclick="cmdSearch_Click" />
                         </td>
                     </tr>
                     <tr>

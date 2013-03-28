@@ -14,7 +14,7 @@ public class bagReader
             ArrayList arrRow = new ArrayList();
             string connStr = ConfigurationManager.ConnectionStrings["connStr_eStore"].ConnectionString;
             SqlConnection conn = null;
-            string sql = "SELECT * FROM (tProducts) WHERE [ProductID] = " + pID;
+            string sql = "SELECT * FROM [tProducts] WHERE [ProductID] = " + pID;
             try
             {
                 conn = new SqlConnection(connStr);

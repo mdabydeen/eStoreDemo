@@ -63,6 +63,26 @@
                     </tr>
                     <tr>
                         <td>
+                            <asp:Label ID="lblSumTotal" runat="server"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/products.aspx">Continue Shopping</asp:HyperLink>
+&nbsp;
+                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/checkout.aspx">Checkout</asp:HyperLink>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
                             &nbsp;</td>
                     </tr>
                 </table>
