@@ -16,7 +16,6 @@ public partial class Bag : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-<<<<<<< HEAD
         //create bag variables
         bagTable = (DataTable)Session["bagTable"];
         int rowCount = bagTable.Rows.Count; //number of ITEM TYPES in the bag
@@ -95,9 +94,6 @@ public partial class Bag : System.Web.UI.Page
             GridView1.DataBind();
 
         }
-=======
-		//This is the code that executes when the page is loaded. 
->>>>>>> a79dc440aa29e22e0570ff9e47a558c1275e9a6b
     }
 
     private void addRow()
